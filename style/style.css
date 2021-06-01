@@ -1,0 +1,28 @@
+.frame{
+	display: flex;
+	overflow-x: hidden;
+	width: 500px;
+	height: 500px;
+}
+
+.film{
+	display: flex;
+	transition: left 0.5s;
+}
+
+.trigger{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 50px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-weight: 900;
+	font-size: 40px;
+	cursor: pointer;
+}
